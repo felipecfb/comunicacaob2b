@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #00303f;
+    width: 100%;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-left: 170px;
+}
+
+.nav {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    margin: 0;
+    padding-left: 700px;
+}
+
+nav li a {
+    display: flex;
+    padding: 0 25px 0 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #f2faae;
+}
+
+nav li a:hover {
+    color: #ffffff !important;
+    text-decoration: underline #ffffff;
+}

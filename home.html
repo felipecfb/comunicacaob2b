@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunicação B2B</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <!-- Importação da fonte -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/fonte.css">
+    <!-- CSS Navbar -->
+    <link rel="stylesheet" href="/css/navbar.css">
+    <!-- CSS do Main -->
+    <link rel="stylesheet" href="/css/home.css">
+    <!-- CSS do Footer -->
+    <link rel="stylesheet" href="/css/footer.css">
+    <!-- Importação do Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a href="home.html"><img src="/src/logo-no-bg.png" title="Logo da Empresa" class="logo"></a>
+            <nav class="nav">
+                <ul class="menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="/pages/sobre.html">Sobre</a></li>
+                    <li><a href="/pages/contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Carousel de imagens chamativas -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="/src/batman.jpg" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/src/king-kong.jpg" alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/src/robin.jpg" alt="Terceiro Slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+
+        <!-- Cards de notícias e/ou serviços -->
+        <div class="cards">
+            <div class="card card1" style="width: 18rem;">
+                <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Smithson do Brasil</h5>
+                    <p class="card-text">Empresa de Tecnologia e Informática, com diversos serviços como: Reparo e Manutenção de Computadores e Notebooks, CFTV, etc.</p>
+                    <a href="#" class="btn btn-primary">Saiba mais</a>
+                </div>
+            </div>
+
+            <div class="card card2" style="width: 18rem;">
+                <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Smithson do Brasil</h5>
+                    <p class="card-text">Empresa de Tecnologia e Informática, com diversos serviços como: Reparo e Manutenção de Computadores e Notebooks, CFTV, etc.</p>
+                    <a href="#" class="btn btn-primary">Saiba mais</a>
+                </div>
+            </div>
+
+            <div class="card card3" style="width: 18rem;">
+                <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Smithson do Brasil</h5>
+                    <p class="card-text">Empresa de Tecnologia e Informática, com diversos serviços como: Reparo e Manutenção de Computadores e Notebooks, CFTV, etc.</p>
+                    <a href="#" class="btn btn-primary">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="rodape">
+            <h2 class="titulo-rodape">&copy; 2021 Felipe Bastos. Todos os direitos reservados.</h2>
+            <div class="redes-sociais">
+                <a href="https://www.facebook.com/Automatusstore"><img src="/src/facebook.svg" class="facebook"></a>
+                <a href="https://www.instagram.com/automatusstore/?hl=pt-br"><img src="/src/instagram.svg"
+                        class="instagram"></a>
+                <a href="https://www.instagram.com/automatusstore/?hl=pt-br"><img src="/src/linkedin.svg"
+                        class="linkedin"></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Importação do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

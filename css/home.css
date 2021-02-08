@@ -1,0 +1,17 @@
+main {
+    background-color: #f4f5f6;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0 70px 0;
+}
+
+.carousel {
+    height: 75%;
+}
+
+#carouselExampleIndicators .carousel-inner, #carouselExampleIndicators .carousel-item {
+    height: 50vh;
+}

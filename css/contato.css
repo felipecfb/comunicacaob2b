@@ -1,0 +1,94 @@
+main {
+    background-color: #f4f5f6;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+}
+
+.fale-conosco {
+    width: 500px;
+    padding: 100px 50px 85px;
+    margin-bottom: 7rem;
+    text-align: center;
+}
+
+.no-line {
+    width: 500px;
+    height: 2px; 
+    background: #000;
+}
+
+.orcamento {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.fale-conosco h2 {
+    font-size: 40px;
+}
+
+.fale-conosco h3 {
+    font-size: 25px;
+}
+
+.fale-conosco h4 {
+    font-size: 18px;
+}
+
+.fale-conosco h2, .fale-conosco h3 {
+    padding: 15px 0 15px 0;
+}
+
+.fale-conosco h4 {
+    padding: 15px 0 0;
+}
+
+.titulo-formulario {
+    font-size: 18px;
+    text-align: center;
+}
+
+.formulario-de-contato {
+    padding: 70px 0 70px 0;
+    text-align: center;
+}
+
+#nome, #assunto, #email, #telefoneparacontato {
+    width: 850px;
+    height: 35px;
+    margin: 19px;
+    font-size: 18px;
+    border: none;
+}
+
+#mensagem {
+    width: 850px;
+    height: 150px;
+    margin: 19px;
+    font-size: 18px;
+    border: none;
+}
+
+#enviarmensagem {
+    background-color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 11 20px;
+    cursor: pointer;
+    width: 854px;
+}
+
+#enviarmensagem:hover {
+    background: #f2faae;
+    font-size: 19px;
+}
+
+.mapa {
+    height: 500px;
+    text-align: center;
+    margin: 0;
+}
