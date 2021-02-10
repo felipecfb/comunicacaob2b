@@ -23,7 +23,7 @@
 <body>
     <header>
         <div class="header">
-            <a href="../home.html"><img src="/src/logo-no-bg.png" title="Logo da Empresa" class="logo"></a>
+            <a href="../home.html"><img src="/imagens/logo-no-bg.png" title="Logo da Empresa" class="logo"></a>
             <nav class="nav">
                 <ul class="menu">
                     <li><a href="../home.html">Home</a></li>
@@ -47,27 +47,48 @@
             </div>
         </div>
 
-        <h2 class="titulo-formulario">Para saber mais sobre nossos serviços e
-            receber
-            novidades, deixe seus dados abaixo que entraremos em contato.</h2>
+        <form>
 
-        <form class="formulario-de-contato">
-            <div>
+            <h2>Para saber mais sobre nossos serviços e receber
+                novidades, deixe seus dados abaixo que entraremos em contato.</h2>
 
-                <input type="text" name="nome" id="nome" placeholder="Seu nome" required> <br>
-
-                <input type="email" name="email" id="email" placeholder="Seu e-mail" required> <br>
-
-                <input type="tel" name="telefoneparacontato" id="telefoneparacontato" placeholder="Seu telefone"
-                    required>
+            <div class="input">
+                <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
+                <div class="error"><span class="error"></span></div>
                 <br>
-
-                <input type="text" name="assunto" id="assunto" required placeholder="Assunto"> <br>
-
-                <textarea id="mensagem" placeholder="Digite sua mensagem aqui" required></textarea> <br>
-
-                <input type="submit" value="Enviar" id="enviarmensagem">
             </div>
+
+            <div class="input">
+                <input type="email" name="email" id="email" placeholder="Seu e-mail" required>
+                <div class="error"><span class="error"></span></div>
+                <br>
+            </div>
+
+            <div class="input">
+                <input type="tel" name="celular" id="celular" maxlength="14" placeholder="Seu telefone" required>
+                <div class="error"><span class="error"></span></div>
+                <br>
+            </div>
+
+            <div class="whatsapp">
+                <h3>Possui Whatsapp?</h3>
+                <input type="radio" name="whatsapp" value="Sim" checked>Sim
+                <input type="radio" name="whatsapp" value="Não">Não
+            </div>
+
+            <div class="input">
+                <input type="text" name="assunto" id="assunto" placeholder="Assunto" required>
+                <div class="error"><span class="error"></span></div>
+                <br>
+            </div>
+
+            <div class="input">
+                <textarea type="text" id="mensagem" placeholder="Digite sua mensagem aqui" required></textarea>
+                <div class="error"><span class="error"></span></div>
+                <br>
+            </div>
+
+            <input type="submit" value="Enviar" id="enviarmensagem">
         </form>
 
         <div class="mapa">
@@ -83,14 +104,17 @@
         <div class="rodape">
             <h2 class="titulo-rodape">&copy; 2021 Felipe Bastos. Todos os direitos reservados.</h2>
             <div class="redes-sociais">
-                <a href="https://www.facebook.com/Automatusstore"><img src="/src/facebook.svg" class="facebook"></a>
-                <a href="https://www.instagram.com/automatusstore/?hl=pt-br"><img src="/src/instagram.svg"
+                <a href="https://www.facebook.com/Automatusstore"><img src="/imagens/facebook.svg" class="facebook"></a>
+                <a href="https://www.instagram.com/automatusstore/?hl=pt-br"><img src="/imagens/instagram.svg"
                         class="instagram"></a>
-                <a href="https://www.instagram.com/automatusstore/?hl=pt-br"><img src="/src/linkedin.svg"
+                <a href="https://www.instagram.com/automatusstore/?hl=pt-br"><img src="/imagens/linkedin.svg"
                         class="linkedin"></a>
             </div>
         </div>
     </footer>
+
+    <script src="/script.js"></script>
+
 </body>
 
 </html>

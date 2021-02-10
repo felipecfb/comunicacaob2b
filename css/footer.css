@@ -1,5 +1,7 @@
+@import url("/css/variaveis.css");
+
 .rodape {
-    background-color: #00303f;
+    background-color: var(--cor-padrao);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -7,7 +9,7 @@
 
 .titulo-rodape {
     font-size: 15px;
-    color: #f2faae;
+    color: var(--cor-texto);
 }
 
 .redes-sociais {

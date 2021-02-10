@@ -1,5 +1,7 @@
+@import url("/css/variaveis.css");
+
 main {
-    background-color: #f4f5f6;
+    background-color: var(--cor-bg);
 }
 
 .cards {

@@ -1,7 +1,9 @@
+@import url("/css/variaveis.css");
+
 .header {
     display: flex;
     align-items: center;
-    background-color: #00303f;
+    background-color: var(--cor-padrao);
     width: 100%;
 }
 
@@ -18,7 +20,7 @@
 .menu {
     display: flex;
     margin: 0;
-    padding-left: 700px;
+    padding-left: 950px;
 }
 
 nav li a {
@@ -26,7 +28,7 @@ nav li a {
     padding: 0 25px 0 25px;
     font-size: 20px;
     text-decoration: none;
-    color: #f2faae;
+    color: var(--cor-texto)
 }
 
 nav li a:hover {
